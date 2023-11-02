@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(font/AnonymousPro-Regular.woff) format('woff'), 
+  url(font/AnonymousPro-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  display: swap;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(font/AnonymousPro-Bold.woff) format('woff'), 
+  url(font/AnonymousPro-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  display: swap;
+}
+
+
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Anonymous Pro", sans-serif;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+
+}
+.header__logo{
+  padding: 30px 175px;
+}
+.header__links ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  padding: 30px 175px 30px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.header__links a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+.main{
+  padding: 24px 0;
+  background: #F1F1F1;
+  min-height: 100vh;
+}
+
+
+
+
+.content__title{
+  color: black;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 0px 175px 24px;
+  
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+  flex-wrap:wrap;
+}
+
+.content__card{
+  max-width: 370px;   
+  border-radius: 12px;
+  background: #FFFFFF;
+
+}
+.card__image{
+  width: 100%;
+  height: auto;
+}
+.card__description{
+  padding: 32px 24px;
+}
+.card__title{
+  margin-bottom: 8px;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card__text{
+  color: black;
+}
+.container{
+  padding: 20px;
+  background: black;
+}
+.footer__left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__logo{
+  padding: 30px 175px;
+  height: auto;
+}
+.footer__links ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  gap: 24px;
+  padding: 30px 175px 30px 0;
+}
+.footer__links a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.footer__line{
+  border: none;
+  border-top: 1px solid rgba(230, 232, 236, 0.40);
+  width: 1475px;
+  margin-bottom: 18px;
+}
+
+.footer__title{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color:#A1A6B4;
+  text-align: center;
+  
+}
+
